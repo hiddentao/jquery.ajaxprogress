@@ -26,44 +26,36 @@ The progress indicator can be one of the three types:
 
 Use a function callback to toggle the visiblity of an element, 0.5 seconds after the AJAX request has started.
 
-<code>
-$.ajax({
-   progress_indicator : function(state) { $("#progress).toggle(state); },
-   progress_indicator_delay : 500,
-   ... /* other AJAX params here */
-});
-</code>
+    $.ajax({
+        progress_indicator : function(state) { $("#progress).toggle(state); },
+        progress_indicator_delay : 500,
+        ... /* other AJAX params here */
+    });
 
 ## Example: jQuery object  ##
 
 Use a jQuery object.
 
-<code>
-$.ajax({
-   progress_indicator : $("#progress),
-   ... /* other AJAX params here */
-});
-</code>
+    $.ajax({
+        progress_indicator : $("#progress),
+        ... /* other AJAX params here */
+    });
 
 ## Example: HTML string ##
 
 Use a HTML string, to show after 5 seconds.
 
-<code>
-$.ajax({
-   progress_indicator : "<span class='message'>Sorry, this request is taking a long time.</span>",
-   progress_indicator_delay : 5000,
-   ... /* other AJAX params here */
-});
-</code>
+    $.ajax({
+        progress_indicator : "<span class='message'>Sorry, this request is taking a long time.</span>",
+        progress_indicator_delay : 5000,
+        ... /* other AJAX params here */
+    });
 
 
 ## Example: no indicator ##
 
 If you don't supply the progress indicator parameters then it doesn't get shown.
 
-<code>
-$.ajax({
-   ... /* other AJAX params here */
-});
-</code>
+    $.ajax({
+        ... /* other AJAX params here */
+    });
