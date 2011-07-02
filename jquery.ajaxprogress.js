@@ -28,9 +28,9 @@
  *
  * Once enabled two new settings are available for the $.ajax call:
  *
- *    'progress_indicator'  - either a jQuery object, function callback or a HTML string specifying the progress indicator. If not specified then no
+ *    progress_indicator  - either a jQuery object, function callback or a HTML string specifying the progress indicator. If not specified then no
  *                                      progress indicator will be shown.
- *    'progress_show_delay' - no. of milliseconds to wait from when the AJAX request has been sent before displaying the progress
+ *    progress_indicator_delay - no. of milliseconds to wait from when the AJAX request has been sent before displaying the progress
  *                                  indicator. Default is 1000, i.e. 1 second.
  *
  * The progress indicator can be one of the three types:
@@ -63,7 +63,7 @@
             // get indicator options
             var indicator = $.extend({},{
                 progress_indicator : undefined,
-                progress_show_delay : 1000
+                progress_indicator_delay : 1000
             } , settings);
 
             // hook the completion callback
@@ -106,7 +106,7 @@
                                 .appendTo(document.body)
                         ;
                     }
-                }, indicator.progress_show_delay);
+                }, indicator.progress_indicator_delay);
             }
         }
     })();
