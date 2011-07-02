@@ -20,6 +20,8 @@
  * THE SOFTWARE.
  *
  * AJAX Progress plugin for jQuery
+ *
+ * Source: https://github.com/hiddentao/jquery.ajaxprogress
  * 
  * This plugin enhances the jQuery AJAX request handler with the ability to display a user-specified progress indicator if the request takes longer
  * than a user-specified time to complete. The motivation for adding such functionality is that sometimes the AJAX requests take longer than
