@@ -19,7 +19,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * AJAX Extra plugin for jQuery
+ * AJAX Progress plugin for jQuery
  * 
  * This plugin enhances the jQuery AJAX request handler with the ability to display a user-specified progress indicator if the request takes longer
  * than a user-specified time to complete. The motivation for adding such functionality is that sometimes the AJAX requests take longer than
