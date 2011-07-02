@@ -2,11 +2,7 @@
 
 Source: [https://github.com/hiddentao/jquery.ajaxprogress](https://github.com/hiddentao/jquery.ajaxprogress)
 
-This plugin enhances the jQuery AJAX request handler with the ability to display a user-specified progress indicator if the request takes longer
-than a user-specified time to complete. The motivation for adding such functionality is that sometimes the AJAX requests take longer than
-expected (especially on mobiles with patchy connections) and it would be good to be able to inform the user of such a delay in an
-easily re-usable manner.
-
+This plugin enhances the jQuery AJAX request handler with the ability to display a user-specified progress indicator if the request takes longer than a user-specified time to complete. The motivation for adding such functionality is that sometimes the AJAX requests take longer than expected (especially on mobiles with patchy connections) and it would be good to be able to inform the user of such a delay in an easily re-usable manner.
 
 Once enabled two new settings are available for the $.ajax call:
 
